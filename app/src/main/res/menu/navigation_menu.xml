@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:title="Norton Mobile Security"
+            android:id="@+id/security_id"
+            android:icon="@drawable/lock_closed_green" />
+
+        <item
+            android:title="Norton Indentity Safe"
+            android:id="@+id/Safe_id"
+            android:icon="@drawable/radio_towe" />
+
+
+
+    </group>
+
+
+    <item android:title="@string/subheader">
+
+
+        <menu>
+
+
+            <item
+                android:title="Settings"
+                android:id="@+id/settings_id"
+                android:icon="@drawable/settings" />
+
+
+            <item
+                android:title="Activate Device Admin"
+                android:id="@+id/activate_id"
+                android:icon="@drawable/account_multiple" />
+
+
+            <item
+                android:title="Share"
+                android:id="@+id/share_id"
+                android:icon="@drawable/share_variant" />
+
+
+            <item
+                android:title="Rate App Lock"
+                android:id="@+id/rate_id"
+                android:icon="@drawable/emoticon_excited" />
+            <item
+                android:title="Help"
+                android:id="@+id/help_id"
+                android:icon="@drawable/help_circle" />
+            <item
+                android:title="About"
+                android:id="@+id/about_id"
+                android:icon="@drawable/message_bulleted" />
+        </menu>
+
+
+    </item>
+
+
+</menu>
